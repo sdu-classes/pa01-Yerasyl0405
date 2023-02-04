@@ -26,4 +26,6 @@ public class Circle {
     public double getCircumference(){
         return 2*radius*Math.PI;
     }
+    public String toString(){
+        return getArea()+" "+getCircumference()+" "+getRadius();
 }
